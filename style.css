@@ -1,0 +1,24 @@
+
+h1 {
+  margin-left: 510px;
+  color: black;
+  background-color: #574c62;
+  border-radius: 15px;
+  width: 510px;
+  height: 35px;
+  box-shadow: 4px 5px 5px;
+  padding: 10px;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    margin-left: 55px;
+    color: black;
+    background-color: #574c62;
+    border-radius: 15px;
+    width: 270px;
+    height: 35px;
+    box-shadow: 4px 5px 5px;
+    padding: 10px;
+  }
+}
