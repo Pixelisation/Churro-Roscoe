@@ -42,3 +42,30 @@ h1 {
   bottom: 340px;
   font-size: 2em;
 }
+
+#container-playing{
+  margin-top: 1em;
+  border-style: dashed double none;
+  border-width: 1em;
+  background-color: #befbff;
+  height: 350px;
+}
+
+#playing {
+  margin-top: 10px;
+  margin-left: 10px; 
+  border: 5px solid red;
+  border-radius: 5px;
+  transition: transform 1.5s;
+}
+
+#playing:hover {
+  transform: rotateY(150deg);
+}
+
+#text-2 {
+  margin-left: 270px;
+  position: relative;
+  bottom: 340px;
+  font-size: 2em; 
+}
